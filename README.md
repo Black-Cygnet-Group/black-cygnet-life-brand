@@ -6,6 +6,14 @@ Centralised brand assets for **Black Cygnet Life**, a life insurance brand withi
 
 Black Cygnet Life is positioned as The Visionary Rebel — bold, insightful, and committed to creating the extraordinary. The brand challenges the conventions of traditional insurance, seeking opportunity where others see limits. Its voice is curious, courageous, and direct.
 
+## Documentation
+
+Three guides at the repo root cover different audiences — read whichever applies:
+
+- [`brand-assets-overview.md`](./brand-assets-overview.md) — non-technical overview of what this is and why it exists, for anyone in the business.
+- [`brand-maintenance.md`](./brand-maintenance.md) — step-by-step guide for the marketing / brand team on how to update assets (no coding required).
+- [`brand-assets-technical-guide.md`](./brand-assets-technical-guide.md) — technical reference for developers and AI engineers, including code examples and ready-to-paste AI prompt blocks.
+
 ## Using these assets in an app
 
 Every file in this repo is automatically available on jsDelivr. The URL pattern is:
