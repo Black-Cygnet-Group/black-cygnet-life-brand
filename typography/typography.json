@@ -1,0 +1,41 @@
+{
+  "brand": "black-cygnet-life",
+  "brandSlug": "bcl",
+  "source": "guidelines/black-cygnet-life-brand-guide.pdf (page 17) and internal brand notes.",
+  "families": {
+    "primary": {
+      "name": "Museo Sans",
+      "role": "primary",
+      "usage": "All brand communication — advertising, brochures, printed and digital marketing material.",
+      "weights": [300, 400, 500, 700, 900],
+      "source": "Commercial. Available via Adobe Fonts or MyFonts. See fonts.md."
+    },
+    "webFallback": {
+      "name": "Century Gothic",
+      "role": "web-fallback",
+      "usage": "Fallback when Museo Sans is unavailable or fails to load. Widely system-installed.",
+      "weights": [400, 700],
+      "source": "Widely licensed; typically system-available. See fonts.md."
+    },
+    "accent": {
+      "name": "Feeling Passionate",
+      "role": "accent",
+      "usage": "For internal marketing communication only. Use sparingly, to add a touch of fun.",
+      "weights": [400],
+      "source": "To be confirmed. Internal notes say 'Licenses: Pending??'. See OPEN-QUESTIONS.md item 3."
+    }
+  },
+  "scaleExample": {
+    "note": "Reference print scale from the brand guide. Maintain the relative hierarchy when scaling for digital.",
+    "heading":    { "sizePt": 30, "caseStyle": "uppercase", "weight": 700 },
+    "subheading": { "sizePt": 14, "weight": 500 },
+    "body":       { "sizePt": 10, "weight": 400 },
+    "pullQuote":  { "sizePt": 13, "weight": 400 }
+  },
+  "rules": [
+    "Body text is always Ocean (#001f49), never plain black.",
+    "Keep kerning consistent and spacious.",
+    "Text layout should disrupt conventional insurance document norms — be bold with hierarchy, let ideas go 'out of the box' where appropriate (see brand guide pages 18–20).",
+    "Maintain the hierarchy ratio when scaling to digital sizes."
+  ]
+}
