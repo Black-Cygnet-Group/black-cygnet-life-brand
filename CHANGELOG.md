@@ -3,6 +3,14 @@
 All notable changes to the Black Cygnet Life brand assets repository will be documented here.
 Newest entries at the top. Versions follow [Semantic Versioning](https://semver.org/).
 
+## v0.1.2 — 2026-04-22
+
+**Fixed:**
+
+- Replaced the brand guide PDF with a compressed version (~11 MB, down from ~26 MB). The PDF is now under jsDelivr's 20 MB per-file limit and fetchable via the CDN. Content is unchanged — all 33 pages present, compressed via TinyWow.
+- Removed the v0.1.1 README note about the PDF size exceeding jsDelivr's limit — no longer applicable.
+- Closed `OPEN-QUESTIONS.md` item 7 (PDF size) — resolved.
+
 ## v0.1.1 — 2026-04-22
 
 Documentation-only patch. No asset changes.
