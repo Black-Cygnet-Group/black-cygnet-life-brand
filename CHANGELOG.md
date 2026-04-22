@@ -3,6 +3,15 @@
 All notable changes to the Black Cygnet Life brand assets repository will be documented here.
 Newest entries at the top. Versions follow [Semantic Versioning](https://semver.org/).
 
+## v0.1.1 — 2026-04-22
+
+Documentation-only patch. No asset changes.
+
+**Fixed:**
+
+- Added a note to the README explaining that the brand guide PDF (~26 MB) exceeds jsDelivr's 20 MB per-file limit and therefore **cannot be fetched via jsDelivr**. The README now provides a GitHub Raw URL as the direct-download path instead. Apps consuming logos, tokens, and icons via jsDelivr are unaffected.
+- Added [`OPEN-QUESTIONS.md`](./OPEN-QUESTIONS.md) item 7 asking the brand team to produce a compressed version (or split the PDF) to make it CDN-accessible.
+
 ## v0.1.0 — 2026-04-22
 
 Initial release. Migrated Black Cygnet Life brand assets from local source folders into this public repo, served via jsDelivr.

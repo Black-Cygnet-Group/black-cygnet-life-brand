@@ -154,7 +154,15 @@ Body text is always Ocean `#001f49`, never plain black. See [`typography/fonts.m
 
 ### Full brand guidelines
 
-The canonical brand guide is in [`guidelines/black-cygnet-life-brand-guide.pdf`](./guidelines/black-cygnet-life-brand-guide.pdf) — 33 pages covering brand manifesto, personality archetypes, logo usage, colour, typography, patterns, photography treatment, and application examples.
+The canonical 33-page brand guide is committed in [`guidelines/black-cygnet-life-brand-guide.pdf`](./guidelines/black-cygnet-life-brand-guide.pdf). It covers brand manifesto, personality archetypes, logo usage, colour, typography, patterns, photography treatment, and application examples.
+
+**Note:** the PDF is ~26 MB, which exceeds jsDelivr's 20 MB per-file limit, so it is **not available via the jsDelivr CDN**. View it on GitHub at the link above, or download directly via:
+
+```
+https://github.com/Black-Cygnet-Group/black-cygnet-life-brand/raw/v0.1.1/guidelines/black-cygnet-life-brand-guide.pdf
+```
+
+A compressed version is being requested — see [`OPEN-QUESTIONS.md`](./OPEN-QUESTIONS.md) item 7.
 
 ## Related repositories
 

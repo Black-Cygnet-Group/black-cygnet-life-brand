@@ -127,4 +127,20 @@ For v0.1.0 they have been committed into this repo under [`parent-brand/mark/`](
 
 ---
 
+## 7. Brand guide PDF exceeds jsDelivr's 20 MB file limit
+
+**Context.** The canonical brand guide PDF is ~26 MB, which exceeds jsDelivr's 20 MB per-file limit for GitHub-served content. The PDF is still committed to the repo and viewable on GitHub, but **cannot be fetched via jsDelivr URLs** — the CDN returns a 403 with the message "File size exceeded the configured limit of 20 MB."
+
+This doesn't affect apps (they consume logos and tokens, not the PDF), but it's a friction point for anyone expecting to open the brand guide via a CDN link.
+
+**Decision needed.**
+
+- [ ] **A. Produce a compressed version of the PDF** (target: under 15 MB, with a comfortable margin). The designer can downsample embedded images, flatten to a single compressed image stream, and save with optimised settings. Replace the current PDF when ready; no versioning concern (it's a patch).
+- [ ] **B. Split the PDF** into smaller sections (e.g. by chapter — manifesto, logo, colour, typography, applications) so each is under 20 MB and individually fetchable via jsDelivr.
+- [ ] **C. Accept the limitation permanently.** The PDF is only for human reference; GitHub direct-download works fine. No change to the current setup.
+
+**Interim approach in the repo.** The full uncompressed PDF is committed at its original size (~26 MB). The README includes a GitHub Raw URL for direct download. Apps that consume assets via jsDelivr are unaffected — they don't need the PDF.
+
+---
+
 *Last updated: 2026-04-22.*
