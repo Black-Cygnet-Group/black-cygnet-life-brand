@@ -1,0 +1,9 @@
+/* Black Cygnet Life brand colours. Mirror palette.json and tailwind.colours.ts — change all three together. */
+
+:root {
+  --bcl-ocean:       #001f49;
+  --bcl-misty-rose:  #f6e2e0;
+  --bcl-candy:       #fe3725;
+  --bcl-sky:         #439bbb;
+  --bcl-white:       #ffffff;
+}

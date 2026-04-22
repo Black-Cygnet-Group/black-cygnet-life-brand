@@ -1,0 +1,48 @@
+{
+  "brand": "black-cygnet-life",
+  "brandSlug": "bcl",
+  "source": "Canonical palette from guidelines/black-cygnet-life-brand-guide.pdf (page 15), confirmed by internal brand notes. Pantone references are available in the PDF.",
+  "colours": {
+    "ocean": {
+      "hex": "#001f49",
+      "rgb": [0, 31, 73],
+      "cmyk": [100, 89, 38, 46],
+      "role": "primary",
+      "usage": "Body text (never plain black). Primary dark background."
+    },
+    "misty-rose": {
+      "hex": "#f6e2e0",
+      "rgb": [246, 226, 224],
+      "cmyk": [2, 12, 7, 0],
+      "role": "primary",
+      "usage": "Primary background. Body text only when on an Ocean background."
+    },
+    "candy": {
+      "hex": "#fe3725",
+      "rgb": [254, 55, 37],
+      "cmyk": [0, 91, 91, 0],
+      "role": "secondary-accent",
+      "usage": "Accent only; error states. Never as a background or body text."
+    },
+    "sky": {
+      "hex": "#439bbb",
+      "rgb": [67, 155, 187],
+      "cmyk": [71, 25, 18, 0],
+      "role": "secondary",
+      "usage": "Secondary background; success states. Pairs with Ocean or White for text."
+    },
+    "white": {
+      "hex": "#ffffff",
+      "rgb": [255, 255, 255],
+      "cmyk": [0, 0, 0, 0],
+      "role": "primary",
+      "usage": "Primary background. Reversed text colour on Ocean backgrounds."
+    }
+  },
+  "usageRatio": {
+    "ocean": 0.50,
+    "misty-rose": 0.30,
+    "candy": 0.10,
+    "sky": 0.10
+  }
+}
